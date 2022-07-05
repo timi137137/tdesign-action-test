@@ -1,0 +1,11 @@
+name: Pull Request Atuo Link
+
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: timi137137/tdesign-pr-auto-link@main
+      - name: Run a one-line script
+        run: echo Hello, world!
