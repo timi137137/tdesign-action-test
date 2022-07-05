@@ -2,10 +2,11 @@ name: Pull Request Auto Link
 
 on:
   pull_request:
-    types: [opened, closed]
+    types: [opened, labeled, closed]
 
 jobs:
-  AddLabelForIssue:
+  add_label:
+    name: Add Leabl
     runs-on: ubuntu-latest
     steps:
-      - uses: timi137137/tdesign-pr-auto-link@main 
+      - uses: timi137137/tdesign-pr-auto-link@main
