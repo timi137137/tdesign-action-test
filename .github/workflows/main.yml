@@ -7,5 +7,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Check spelling
-        uses: timi137137/tdesign-pr-auto-link@main
