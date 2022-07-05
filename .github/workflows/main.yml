@@ -1,8 +1,6 @@
 name: Pull Request Auto Link
 
-on:
-  pull_request:
-    types: [opened, labeled, closed]
+on: pull_request
 
 jobs:
   add_label:
