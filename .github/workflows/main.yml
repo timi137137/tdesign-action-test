@@ -1,0 +1,12 @@
+name: Pull Request Auto Link
+
+on:
+  pull_request:
+    types: closed
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  AddLabelForIssue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: timi137137/tdesign-pr-auto-link@main 
