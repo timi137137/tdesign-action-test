@@ -9,4 +9,4 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: timi137137/tdesign-pr-auto-link@main
+      - uses: timi137137/tdesign-pr-auto-link@develop
